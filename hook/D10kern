@@ -1,0 +1,3 @@
+echo "deb http://ppa.launchpad.net/kernsuite/kern-3/ubuntu xenial main" > /etc/apt/sources.list.d/kern.list
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B7D042E7
+apt-get update
